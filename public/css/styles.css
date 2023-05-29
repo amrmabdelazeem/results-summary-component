@@ -1,0 +1,16 @@
+*{
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.results{
+    text-align: center;
+}
+
+button{
+    padding: .7rem 8rem;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: black;
+}
