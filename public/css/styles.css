@@ -2,15 +2,110 @@
     font-family: 'Hanken Grotesk', sans-serif;
 }
 
-.results{
-    text-align: center;
+body{
+    margin: 0;
+    padding: 0;
 }
 
+.results{
+    text-align: center;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+
+.results h3{
+    color:hsl(241, 100%, 89%) ;
+    margin: 0;
+    padding-top: 1.7rem;
+}
+
+.score{
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin-top: 1.7rem;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+}
+
+.score h1{
+    font-size: 3.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    color: hsl(0, 0%, 100%);
+}
+.score p{
+    color: hsl(241, 100%, 89%);
+    margin-top: .2rem;
+}
+
+.results h2{
+    color: hsl(0, 0%, 100%);
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+.results p{
+    color: hsl(241, 100%, 89%);
+    padding: 0 3rem 1.1rem;
+}
+.summary{
+    margin: 0 2rem 1.5rem;
+}
+.skill{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+}
+#reaction{
+    background-color: hsla(0, 100%, 67%, .1);
+    color: hsl(0, 100%, 67%);
+}
+#memory{
+    background-color: hsla(39, 100%, 56%, .1);
+    color: hsl(39, 100%, 56%);
+}
+#verbal{
+    background-color: hsla(166, 100%, 37%, .1);
+    color: hsl(166, 100%, 37%);
+}
+#visual{
+    background-color: hsla(234, 85%, 45%,.1);
+    color: hsl(234, 85%, 45%);
+}
+.skill-name{
+    display: flex;
+    margin-left: 1rem;
+}
+.skill-name img{
+    margin-right: 1rem;
+}
+.skill-score{
+    display: flex;
+    margin-right: 1rem;
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+
+.skill-score p:nth-child(2){
+    margin-left: .5rem;
+    color: hsla(224, 30%, 27%,.5);
+}
 button{
-    padding: .7rem 8rem;
-    border-radius: 20px;
+    padding: .8rem 1rem;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
     font-size: 1rem;
     font-weight: 700;
     color: #fff;
-    background-color: black;
+    background-color: hsl(224, 30%, 27%);
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(234, 85%, 45%);
 }
