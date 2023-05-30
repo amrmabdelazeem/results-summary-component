@@ -8,7 +8,7 @@ function Results(){
         <p>of 100</p>
         </div>
         <h2>Great</h2>
-        <p>You scored higher than 65% of three people who have taken these tests</p>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
     </div>
 }
 
