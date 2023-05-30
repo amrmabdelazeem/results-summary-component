@@ -1,16 +1,12 @@
 import React from "react";
 
 function Skill(props){
-    return <div className="skill" style={
-        {display: "flex",
-    justifyContent:"space-between"
-        }
-    }>
-    <div style={{display:"flex"}}>
+    return <div className="skill" id={props.id}>
+    <div className="skill-name">
     <img src={props.icon} alt={props.alt}/>
     <p>{props.category}</p>
     </div>
-    <div style={{display:"flex"}}>
+    <div className="skill-score">
     <p>{props.score}</p>
     <p>/ 100</p>
     </div>
