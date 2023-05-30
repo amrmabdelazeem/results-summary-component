@@ -114,7 +114,7 @@ button:hover{
     background-color: hsl(234, 85%, 45%);
 }
 
-@media (min-width:400px){
+@media (min-width:700px){
     body{
         min-height: 100vh;
         display: grid;
